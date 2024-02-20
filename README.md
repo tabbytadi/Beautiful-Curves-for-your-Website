@@ -5,8 +5,8 @@ You can acces the html page here:https://tabbytadi.github.io/Beautiful-Curves-fo
 
 # The links of the additional website resources I've used in my project:
 
-*https://www.shapedivider.app/ - for simple waves
+*https://www.shapedivider.app/ - for simple waves*
 
-https://app.haikei.app/ - for simple curves and shapes
+*https://app.haikei.app/ - for simple curves and shapes*
 
-https://thednp.github.io/kute.js/index.html - a javascript animation engine for smooth animation and transitions*
+*https://thednp.github.io/kute.js/index.html - a javascript animation engine for smooth animation and transitions*
