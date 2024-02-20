@@ -1,4 +1,4 @@
-Beautiful Curves for your Website
+#Beautiful Curves for your Website
 Examples of creating backgrounds that use curves, waves, and blobs on a webpage.
 You can acces the html page here:https://tabbytadi.github.io/Beautiful-Curves-for-your-Website/curves.html
 
