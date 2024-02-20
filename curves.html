@@ -1,0 +1,112 @@
+<!-- section*8>(h1>{Nice Curves})+p>lorem //+TAB// 
+      > oznachava child to that element
+      v () zahtoto e grupa
+      + e dobavqne na sibling
+      lorem e nqkakuv dummy text
+-->
+
+
+<!DOCTYPE html>
+
+<head>
+  <title>Curves Tutorial</title>
+
+  <link rel="stylesheet" href="styles\curves.css">
+  <link rel="stylesheet" href="layer1.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"></script>
+
+</head>
+
+<body>
+  <section class="blue">
+    <h1>Nice Curves</h1>
+    <p>This first curve was made entirely by using css code and playing by hand with the right proportions, percentages curving,
+      and alignments. It si imperfect and I'll show a better and easier way to create such curves with the help of an online free webpage!</p>
+    <div class="curve"></div>
+  </section>
+  <section>
+    <h1>Nice Curves</h1>
+    <p>The curve here is made by using plain css as well and it is a better representation of when a css code like that would come in handy
+      and would be preferred when compared to the options that follow, because it doesn't demand the usage of outside resources!</p>
+  </section>
+  <section class="bubble">
+    <h1>Nice Curves</h1>
+    <p>This is a randomly generated text: Odit cumque, magnam rem ut dolore blanditiis aut suscipit cupiditate aliquid provident
+      reprehenderit ea quae veritatis recusandae officia aperiam quaerat. Reprehenderit id maiores vero delectus temporibus natus culpa
+      inventore dicta.</p>
+  </section>
+  <section class="dark">
+    <h1>Nice Curves</h1>
+    <p>The following curve here is made with the help of outside resources - ttps://www.shapedivider.app/ where you can select the shape,
+      color and much more of the curves you want to easily implement in your project. It's a better alternative to the first curve shown in
+      this page, as it is more precise and clean!</p>
+  </section>
+  <section class="red">
+    <h1>Nice Curves</h1>
+    <p>The following curve here is made with the help of the same outside resource - ttps://www.shapedivider.app/ just with a different design
+      and a different shape implemented. It gives a more dynamic and interesting feel to the page!</p>
+    <div class="wave">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path
+          d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+          class="shape-fill"></path>
+      </svg>
+    </div>
+  </section>
+
+  <img class="layer1" src="layer1.svg">
+
+  <section>
+    <h1>Nice Curves</h1>
+    <p>The following curve here is made with the help of the same outside resource - ttps://www.shapedivider.app/ just with a different design
+      and a different shape implemented. I've used the same design twice as here it is also inverted to create a border effect!</p>
+  </section>
+
+  <img class="layer1 flip" src="layer2.svg">
+  <section class="pink">
+    <h1>Nice Curves</h1>
+    <p>This floating pretty blob was made with the help of https://app.haikei.app/ - used for the form of the shape and this webpage:
+      https://thednp.github.io/kute.js/svgMorph.html - used to make the animation smooth and clear!</p>
+
+    <svg class="blob-motion" id="visual" viewBox="0 0 900 400" width="900" height="400" xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+      <g transform="translate(458.85609965311545 198.09166933678674)">
+        <path id="blob1"
+          d="M95.7 -82.7C126.4 -65.1 155.2 -32.5 150.7 -4.5C146.2 23.6 108.5 47.1 77.8 68.8C47.1 90.5 23.6 110.2 -3.3 113.5C-30.2 116.8 -60.3 103.7 -93.7 82C-127 60.3 -163.5 30.2 -168.3 -4.8C-173.2 -39.8 -146.3 -79.7 -113 -97.3C-79.7 -115 -39.8 -110.5 -3.7 -106.8C32.5 -103.2 65.1 -100.4 95.7 -82.7"
+          fill="#BB004B"></path>
+      </g>
+      <g transform="translate(470.60139408707374 212.19539026183344)" style="visibility: hidden">
+        <path id="blob2"
+          d="M103.9 -120.5C120.5 -87.2 110.3 -43.6 101.8 -8.5C93.3 26.6 86.6 53.3 69.9 83.4C53.3 113.6 26.6 147.3 0.4 146.9C-25.9 146.6 -51.9 112.2 -83.4 82C-114.9 51.9 -151.9 25.9 -153.9 -2C-155.9 -29.9 -122.9 -59.9 -91.4 -93.2C-59.9 -126.5 -29.9 -163.3 6.8 -170.1C43.6 -176.9 87.2 -153.9 103.9 -120.5"
+          fill="#BB004B"></path>
+      </g>
+    </svg>
+
+    <script>
+      const tween = KUTE.fromTo(
+        '#blob1',
+        { path: '#blob1' },
+        { path: '#blob2' },
+        { repeat: 999, duration: 3000, yoyo: true }
+      )
+      
+      tween.start();
+    </script>
+
+  </section>
+  <img class="layer1" src="layer2.svg">
+
+  <section>
+    <h1>Nice Curves</h1>
+    <p>This is a randomly generated text: Eius quasi accusantium modi nihil perferendis, commodi earum tenetur minima ducimus consequatur! Sunt iusto
+      consectetur doloribus molestiae at. Maxime, officia magnam sequi illum voluptatibus sunt perspiciatis optio ab!
+      Aut, sint!</p>
+  </section>
+</body>
+
+</html>
