@@ -3,7 +3,7 @@ Examples of creating backgrounds that use curves, waves, and blobs on a webpage.
 
 You can acces the html page here: https://tabbytadi.github.io/Beautiful-Curves-for-your-Website/curves.html
 
-# The links of the additional website resources I've used in my project:
+## The links of the additional website resources I've used in my project:
 
 *https://www.shapedivider.app/ - for simple waves*
 
